@@ -13,7 +13,8 @@ npm install --save emojiweather
 ```javascript
 var emojiweather = require('emojiweather')
 
-emojiweather()  // => true
+emojiweather('partly-cloudy') // => '⛅ '
+emojiweather('partly     ClOuDY') // => '⛅ '
 ```
 
 ## License
