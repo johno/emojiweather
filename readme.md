@@ -1,6 +1,7 @@
 # emojiweather [![Build Status](https://secure.travis-ci.org/johnotander/emojiweather.svg?branch=master)](https://travis-ci.org/johnotander/emojiweather) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
-Get the closest emoji representation of the weather
+Get the closest emoji representation of the weather.
+This is a work in progress but is intended to handle string input from the majority of weather forecast provider APIs.
 
 ## Installation
 
