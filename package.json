@@ -1,0 +1,23 @@
+{
+  "name": "emojiweather",
+  "description": "Get the closest emoji representation of the weather",
+  "author": "John Otander",
+  "version": "0.1.0",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "ava -v"
+  },
+  "repository": "johnotander/emojiweather",
+  "keywords": [
+    "emoji",
+    "weather"
+  ],
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "*"
+  }
+}
