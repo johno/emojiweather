@@ -9,11 +9,14 @@ module.exports = function emojiweather (weather) {
   switch (normalize(weather)) {
     case 'rain':
     case 'rainy':
+    case 'chancerain':
       emoji = '🌧'
       break
     case 'thunder':
     case 'thunderstorm':
     case 'tstorm':
+    case 'tstorms':
+    case 'chancetstorms':
     case 'stormy':
     case 'storm':
     case 'lightning':
@@ -33,14 +36,18 @@ module.exports = function emojiweather (weather) {
       break
     case 'sunny':
     case 'clear':
+    case 'haze':
     case 'clearnight':
     case 'clearday':
       emoji = '🌞'
       break
     case 'snow':
+    case 'chancesnow':
     case 'snowing':
     case 'snowy':
     case 'sleet':
+    case 'flurries':
+    case 'chanceflurries':
       emoji = '🌨'
       break
     case 'fog':
